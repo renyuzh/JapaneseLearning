@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@drawable/default_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="28dp"
+            android:text="注册"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ff3f3f3f" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0px"
+            android:layout_marginRight="15.0px"
+            android:layout_marginTop="62.0px"
+            android:background="@drawable/login_back"
+            android:paddingBottom="10.0px"
+            android:paddingTop="21.0px" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5.0px"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/qq_edit_login"
+                android:ems="10"
+                android:hint="请输入注册账号"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="60.0sp"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_alignTop="@+id/editText1"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="账号 :"
+                android:textColor="#ff3f3f3f"
+                android:textSize="20.0dip" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_alignRight="@+id/editText1"
+                android:layout_below="@+id/editText1"
+                android:layout_marginRight="1.0dip"
+                android:background="@drawable/qq_edit_login"
+                android:ems="10"
+                android:hint="请输入最多16位密码"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:paddingLeft="60.0sp"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText2"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignTop="@+id/editText2"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="密码 :"
+                android:textColor="#ff3f3f3f"
+                android:textSize="20.0dip" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignRight="@+id/editText2"
+                android:layout_below="@+id/editText2"
+                android:layout_marginRight="1.0dip"
+                android:background="@drawable/qq_edit_login"
+                android:ems="10"
+                android:hint="请第二次输入最多16位密码"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:paddingLeft="60.0sp"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText3"
+                android:layout_alignLeft="@+id/editText3"
+                android:layout_alignTop="@+id/editText3"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="确认 :"
+                android:textColor="#ff3f3f3f"
+                android:textSize="20.0dip" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0px"
+            android:layout_marginRight="20.0px"
+            android:stretchColumns="1" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#D2DBD3"
+                android:layout_marginTop="31dp"
+                android:text="提交" />
+        </TableLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:background="@drawable/bottom" >
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_tool_button"
+        android:paddingTop="3.0dip" >
+
+        <TextView
+            android:id="@+id/txTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="日常用语"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titleLayout"
+        android:background="#ffa7d4f7"
+        android:padding="5.0dip" >
+
+        <ListView
+            android:id="@+id/categoryLV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#00000000"
+            android:dividerHeight="5.0dip"
+            android:fadingEdge="none"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+</RelativeLayout>

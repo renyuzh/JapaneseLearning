@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/nowCardStyleAdvanced"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_sum" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear_column1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.88">
+            <TextView android:textSize="18.0sp" android:textColor="#ff888888" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="1111111111" />
+            <TextView android:textSize="25.0sp" android:textColor="#ff333333" android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="222222"  />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/lr_sound" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.12">
+            <ImageView android:layout_gravity="right" android:id="@+id/imgPlay" android:layout_width="@dimen/img_sound_wh" android:layout_height="@dimen/img_sound_wh" android:layout_marginTop="32.0dip" android:src="@drawable/sound_volume_flat" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/solid_line_gray" android:layout_below="@+id/linear_sum" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff801f06" android:id="@+id/text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="翻译：" android:layout_below="@+id/imageView" android:layout_alignLeft="@+id/imageView" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@+id/text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium Text" android:layout_toRightOf="@id/text4" android:layout_alignTop="@id/text4" />
+    <CheckBox android:id="@+id/favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/favorite" android:layout_alignRight="@id/imageView" android:layout_alignBottom="@id/text3" />
+</RelativeLayout>

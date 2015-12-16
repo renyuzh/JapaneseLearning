@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name = "weeklist">
+        <item>tanfujun</item>
+        <item>zhuwei</item>
+        <item>yangguanglong</item>
+        <item>小a</item>
+        <item>小b</item>
+        
+    </array>
+</resources>

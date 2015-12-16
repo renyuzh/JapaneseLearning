@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:baselineAligned="false" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/slv_rank_week"
+                    
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="42.0dip"
+                    android:divider="@null"
+                    android:duplicateParentState="true"
+                    android:fadingEdge="none"
+                    android:listSelector="@null"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <ImageView
+                    android:id="@+id/iv_rank_title_week"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/rank_split_this_week" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                 />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+             
+                <ListView
+                    android:id="@+id/slv_rank_month"
+                     
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="42.0dip"
+                    android:divider="@null"
+                    android:duplicateParentState="true"
+                    android:fadingEdge="none"
+                    android:listSelector="@null"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <ImageView
+                    android:id="@+id/iv_rank_title_month"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/rank_split_this_month" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="8.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

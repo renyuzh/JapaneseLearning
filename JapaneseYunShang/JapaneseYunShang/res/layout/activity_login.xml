@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0px"
+            android:layout_marginRight="15.0px"
+            android:layout_marginTop="100.0px"
+            android:background="@drawable/login_back"
+            android:paddingBottom="10.0px"
+            android:paddingTop="21.0px" >
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5.0px"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/qq_edit_login"
+                android:hint="请输入账号"
+                android:paddingLeft="60.0sp"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/tv_zh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/et_name"
+                android:layout_alignLeft="@+id/et_name"
+                android:layout_alignTop="@+id/et_name"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="账号 :"
+                android:textColor="#ff3f3f3f"
+                android:textSize="20.0dip" />
+
+            <EditText
+                android:id="@+id/et_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/et_name"
+                android:layout_alignRight="@+id/et_name"
+                android:layout_below="@+id/et_name"
+                android:layout_marginRight="1.0dip"
+                android:background="@drawable/qq_edit_login"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:paddingLeft="60.0sp"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/tv_mima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/et_key"
+                android:layout_alignRight="@+id/tv_zh"
+                android:layout_alignTop="@+id/et_key"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="密码 :"
+                android:textColor="#ff3f3f3f"
+                android:textSize="20.0dip" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/et_name"
+                android:layout_alignRight="@+id/et_name"
+                android:layout_below="@+id/tv_mima"
+                android:layout_marginTop="7.0px"
+                android:text="登陆" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0px"
+            android:layout_marginRight="20.0px"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/cb_auto"
+                    style="@style/MyCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自动登录"
+                    android:textColor="#7fffffff" />
+
+                <CheckBox
+                    android:id="@+id/cb_mima"
+                    style="@style/MyCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="记住密码"
+                    android:textColor="#7fffffff" />
+            </TableRow>
+
+            <TableRow>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="注册账号"
+            android:textColor="#7fffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>

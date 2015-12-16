@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">云裳日语</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_back">TODO</string>
+    <string name="complete_time">TODO</string>
+    <string name="resultChoseDate">TODO</string>
+    <string name="course_chose">TODO</string>
+    <string name="result_course_chose">TODO</string>
+    <string name="bt_OK">TODO</string>
+    <string name="login">TODO</string>
+    <string name="register">TODO</string>
+    <string name="WelcomeComing">欢迎回来！</string>
+    <string name="cctanfujun">cctanfujun</string>
+    <string name="Username">用户名</string>
+    <string name="Yunshandays">已在云裳：333天</string>
+    <string name="level">Lv.3</string>
+    <string name="activity_text0">新日语能力考试N1词汇</string>
+    <string name="activity_text1">全部词汇：3125</string>
+    <string name="activity_text2">掌握词汇：2227</string>
+    <string name="time_start">2014年3月3号</string>
+    <string name="time_end">2014年4月15号</string>
+    
+    
+    <string name="action_settings">Settings</string>
+    <string name="back">返 回</string>
+    <string name="clear">清 除</string>
+    <string name="bi_shun">笔 顺</string>
+    <string name="qing_yin">清 音</string>
+    <string name="zhuo_yin">浊音、半浊音</string>
+    <string name="ao_yin">拗 音</string>
+    <string name="practice">练 习</string>
+    <string name="volume_control">音量调节</string>
+    <string name="info">五十音介绍</string>
+    <string name="set">设 置</string>
+    <string name="markcolor">标色</string>
+    <string name="remember">形象记忆</string>
+    <string name="prompt">提示</string>
+    <string name="quit_desc">您确定要退出吗？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="info_tvstr">五十音简介</string>
+    <string name="info_contentstr">&#160;&#160;&#160;&#160;五十音,即五十音图，是将日语的假名（平假名、片假名）以元音、子音为分类依据所排列出来的一个图表。\n
+
+&#160;&#160;&#160;&#160;日语的每个假名代表一个音节（拗音除外），所以属于音节字母。日语的假名共有七十一个，包括清音、浊音、半浊音和拨音。其中表示四十五个清音音节的假名，按照发音规律，可排列成表，这个假名表称为五十音图。\n
+
+&#160;&#160;&#160;&#160;表的纵向称为“段”，每段十个假名，共有五段。横向称为“行”，每行五个假名，共有十行。背诵五十音图是学习日语的基础。</string>
+    <string name="main_app_name">日语学习</string>
+    <string name="daily_words">日常表达</string>
+    <string name="listen">听日语</string>
+    <string name="fifty_letters">日语五十音</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name_">DWinterTabDemo</string>
+    <string name="desc">图片</string>
+    
+    <string name="account_issue">账号</string>
+    <string name="menu_setting">更多</string>
+    
+    <string name="thanks">感谢您使用“云裳日语”客户端</string>
+    <string name="version_tag">V1.0.0</string>
+    <string name="slogo">学习因云裳而精彩</string>
+    <string name="copy_right">CopyRight ⓒ   2014 MarvelCo.All Rights Reserved</string>
+
+</resources>

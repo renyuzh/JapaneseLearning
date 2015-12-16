@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@id/title_bar_relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar_bg" >
+
+        <ImageButton
+            android:id="@id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:src="@drawable/back_btn_bg" />
+
+        <TextView
+            android:id="@id/title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:shadowColor="@color/title_font_shadow"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/markcolor"
+            android:textColor="@color/title_font"
+            android:textSize="22.0sp" />
+
+        <ImageButton
+            android:id="@id/kanachange_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/kanachange_btn_bg"
+            android:onClick="onClick"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/kana_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/btn_linearlayout"
+        android:layout_below="@id/title_bar_relativelayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-2.0dip"
+        android:background="@drawable/kana_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@id/kana_markcolor_relativelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15.0dip"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@id/tvKana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:text="TextView"
+                android:textColor="@color/c_red"
+                android:textSize="50.0sp" />
+
+
+
+            <TextView
+                android:id="@id/tvRomaji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvKana"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:text="TextView"
+                android:textColor="@color/c_red"
+                android:textSize="18.0sp" />
+
+            <ImageButton
+                android:id="@id/markcolor_hard_btn"
+                android:layout_width="25dip"
+                android:layout_height="50dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tvKana"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1.0"
+                android:background="@android:color/transparent"
+                android:onClick="onClick"
+                android:src="@drawable/markcolor_hard_btn_bg" />
+
+            <FrameLayout
+                android:id="@id/layoutSplit"
+                android:layout_width="250dip"
+                android:layout_height="2.0dip"
+                android:layout_below="@id/tvRomaji"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/line" />
+
+            <TextView
+                android:id="@id/tvExample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/layoutSplit"
+                android:layout_below="@id/layoutSplit"
+                android:layout_marginTop="25.0dip"
+                android:text="TextView"
+                android:textColor="@color/c_grey"
+                android:textSize="16.0sp" />
+
+            <ImageButton
+                android:id="@id/markcolor_easy_btn"
+                android:layout_width="25dip"
+                android:layout_height="50dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/layoutSplit"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1.0"
+                android:background="@android:color/transparent"
+                android:onClick="onClick"
+                android:src="@drawable/markcolor_easy_btn_bg" />
+
+            <ImageButton
+                android:id="@id/word_sound_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutSplit"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="25.0dip"
+                android:layout_toRightOf="@id/tvExample"
+                android:layout_weight="1.0"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/kana_relativelayout"
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:background="@drawable/kana_relativelayout_bg"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <android.ricohkana.fq.hiragana.PracticeImageView
+                android:id="@id/practice_imageview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/kana_relativelayout_bg"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@id/bi_shun_imageview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/kana_relativelayout_bg"
+                android:scaleType="fitXY"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/kana_remember_relativelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15.0dip"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@id/tvRememberKana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:text="TextView"
+                android:textColor="@color/c_grey"
+                android:textSize="40.0sp" />
+
+            <FrameLayout
+                android:id="@id/remember_layoutSplit"
+                android:layout_width="250dip"
+                android:layout_height="2.0dip"
+                android:layout_below="@id/tvRememberKana"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/line" />
+
+            <TextView
+                android:id="@id/tvRemember"
+                android:layout_width="250dip"
+                android:layout_height="300dip"
+                android:layout_below="@id/remember_layoutSplit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@id/clear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100.0dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/common_btn_bg"
+            android:onClick="onClick"
+            android:text="@string/clear"
+            android:textColor="@color/c_grey"
+            android:textSize="15.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/layoutNav"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_above="@id/btn_linearlayout"
+        android:layout_marginBottom="5dip" >
+
+        <ImageButton
+            android:id="@id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:src="@drawable/btn_prev" />
+
+        <ImageButton
+            android:id="@id/sound_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:src="@drawable/btn_play" />
+
+        <ImageButton
+            android:id="@id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:src="@drawable/btn_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/btn_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_linearlayout_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/markcolor_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/markcolor_btn_bg"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@id/bi_shun_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_toRightOf="@id/markcolor_btn"
+            android:layout_weight="1"
+            android:background="@drawable/bi_shun_btn_bg"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@id/practice_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_toLeftOf="@id/remember_btn"
+            android:layout_weight="1"
+            android:background="@drawable/practice_btn_bg"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@id/remember_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/remember_btn_bg"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <android.ricohkana.fq.utils.CircularImage
+            android:id="@+id/about_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/version_txt"
+            android:layout_width="82.0dp"
+            android:layout_height="40.0dp"
+            android:layout_below="@+id/about_head"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/version_tag"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/about_slogon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/version_txt"
+            android:contentDescription="@string/slogo"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/slogon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/about_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/copy_right"
+            android:textColor="#333"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

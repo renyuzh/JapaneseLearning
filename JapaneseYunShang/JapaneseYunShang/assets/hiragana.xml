@@ -1,0 +1,1047 @@
+<array>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>あい (ai)</string>
+				<key>meaning</key>
+				<string>love</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>あかい (akai)</string>
+				<key>meaning</key>
+				<string>red</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>あ</string>
+		<key>memoryHint</key>
+		<string>‘あ’看上去像是一个武术高手施展了一个扫堂腿，敌人肯定被扫得冷落花流水，啊的一声倒下去啦，所以读a。</string>
+		<key>romaji</key>
+		<string>a</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>いい (ii)</string>
+				<key>meaning</key>
+				<string>good</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>いいえ (iie)</string>
+				<key>meaning</key>
+				<string>no</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>い</string>
+		<key>memoryHint</key>
+		<string>‘い’通汉字‘以’，也念i，所以很好记的。</string>
+		<key>romaji</key>
+		<string>i</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>うえ (ue)</string>
+				<key>meaning</key>
+				<string>above</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>うち (uchi)</string>
+				<key>meaning</key>
+				<string>house</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>う</string>
+		<key>memoryHint</key>
+		<string>‘う’表示你发音时的样子，上嘴唇倾斜，下巴朝上撅，就发出了u。</string>
+		<key>romaji</key>
+		<string>u</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>えき (eki)</string>
+				<key>meaning</key>
+				<string>station</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>え (e)</string>
+				<key>meaning</key>
+				<string>picture, drawing</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>え</string>
+		<key>memoryHint</key>
+		<string>‘え’通汉字‘衣’，读音稍微改变了一些，成了e。</string>
+		<key>romaji</key>
+		<string>e</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>おかね (okane)</string>
+				<key>meaning</key>
+				<string>money</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>おいしい (oishii)</string>
+				<key>meaning</key>
+				<string>delicious</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>お</string>
+		<key>memoryHint</key>
+		<string>‘お’是一个人帽子被风吹走了，他急了，嗷嗷叫着去追帽子，所以读o。</string>
+		<key>romaji</key>
+		<string>o</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>かいもの (kaimono)</string>
+				<key>meaning</key>
+				<string>shopping</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>かさ (kasa)</string>
+				<key>meaning</key>
+				<string>umbrella</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>か</string>
+		<key>memoryHint</key>
+		<string>‘か’各位应该比较熟悉吧？在漫画中经常会出现这个字，表示卡卡的声音，这个假名应该记起来不难，再说，力量给人的感觉就是干净利索的，发ka也让人感到有力。</string>
+		<key>romaji</key>
+		<string>ka</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>き (ki)</string>
+				<key>meaning</key>
+				<string>tree</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>きいろい (kiiroi)</string>
+				<key>meaning</key>
+				<string>yellow</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>き</string>
+		<key>memoryHint</key>
+		<string>‘き’是一把刀子在刻东西，已经刻了一点了，刻就是ki了。</string>
+		<key>romaji</key>
+		<string>ki</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>く (ku)</string>
+				<key>meaning</key>
+				<string>nine</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>くるま (kuruma)</string>
+				<key>meaning</key>
+				<string>car, vehicle</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>く</string>
+		<key>memoryHint</key>
+		<string>‘く’很容易记，你把嘴的角度调整成‘く’的样子，是不是自然而然就发出了ku音呢？</string>
+		<key>romaji</key>
+		<string>ku</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>けいこ (keiko)</string>
+				<key>meaning</key>
+				<string>practice</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>けさ (kesa)</string>
+				<key>meaning</key>
+				<string>this morning</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>け</string>
+		<key>memoryHint</key>
+		<string>’け’是一扇门，门锁被打开了，门自然就开了，读ke。</string>
+		<key>romaji</key>
+		<string>ke</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ここ (koko)</string>
+				<key>meaning</key>
+				<string>here</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>この (kono)</string>
+				<key>meaning</key>
+				<string>this</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>こ</string>
+		<key>memoryHint</key>
+		<string>‘こ’是你读ko时的嘴型，嘴分得很开。</string>
+		<key>romaji</key>
+		<string>ko</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>さくら (sakura)</string>
+				<key>meaning</key>
+				<string>cherry</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>さけ (sake)</string>
+				<key>meaning</key>
+				<string>rice wine</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>さ</string>
+		<key>memoryHint</key>
+		<string>‘さ’通‘杀’，仔细看的话，像一把匕首刺入了一个人的脖子，杀人啦，所以是sa。</string>
+		<key>romaji</key>
+		<string>sa</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>しお (shio)</string>
+				<key>meaning</key>
+				<string>salt</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>した (shita)</string>
+				<key>meaning</key>
+				<string>below</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>し</string>
+		<key>memoryHint</key>
+		<string>‘し’这个平假名像是一只喝饮料的吸管，所以念xi。</string>
+		<key>romaji</key>
+		<string>shi</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>すき (suki)</string>
+				<key>meaning</key>
+				<string>like</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>すし (sushi)</string>
+				<key>meaning</key>
+				<string>sushi</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>す</string>
+		<key>memoryHint</key>
+		<string>’す’ 这个平假名看起来像挂在竹竿上的丝线，所以念si。</string>
+		<key>romaji</key>
+		<string>su</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>せかい (sekai)</string>
+				<key>meaning</key>
+				<string>world</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>せん (sen)</string>
+				<key>meaning</key>
+				<string>thousand</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>せ</string>
+		<key>memoryHint</key>
+		<string>‘せ’这个平假名是一只手在往口袋里面塞东西呢，念se。</string>
+		<key>romaji</key>
+		<string>se</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>そちら (sochira)</string>
+				<key>meaning</key>
+				<string>your place</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>そと (soto)</string>
+				<key>meaning</key>
+				<string>out</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>そ</string>
+		<key>memoryHint</key>
+		<string></string>
+		<key>romaji</key>
+		<string>so</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>たかい (takai)</string>
+				<key>meaning</key>
+				<string>expensive</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>たべもの (tabemono)</string>
+				<key>meaning</key>
+				<string>food</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>た</string>
+		<key>memoryHint</key>
+		<string>‘た’这个平假名通汉字‘他’，读ta。</string>
+		<key>romaji</key>
+		<string>ta</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ちか (chika)</string>
+				<key>meaning</key>
+				<string>basement</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ちち (chichi)</string>
+				<key>meaning</key>
+				<string>(my) father</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ち</string>
+		<key>memoryHint</key>
+		<string>‘ち’这个平假名很像是七，虽然下面多了一些零碎，但也是七，你把它看成七就成了，很好记，读音是qi。</string>
+		<key>romaji</key>
+		<string>chi</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>つき (tsuki)</string>
+				<key>meaning</key>
+				<string>moon</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>つくえ (tsukue)</string>
+				<key>meaning</key>
+				<string>desk</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>つ</string>
+		<key>memoryHint</key>
+		<string>‘つ’是日语中的促音，是很常见的，促音的发音也是tsu，很容易记。</string>
+		<key>romaji</key>
+		<string>tsu</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>て (te)</string>
+				<key>meaning</key>
+				<string>hand</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>てんき (tenki)</string>
+				<key>meaning</key>
+				<string>weather</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>て</string>
+		<key>memoryHint</key>
+		<string>‘て’这个平假名引人注目的是下面那个半圆，像什么呢？像是孕妇的大肚子，看来是怀胎了，所以读te。</string>
+		<key>romaji</key>
+		<string>te</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>とおり (toori)</string>
+				<key>meaning</key>
+				<string>street</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>とても (totemo)</string>
+				<key>meaning</key>
+				<string>very</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>と</string>
+		<key>memoryHint</key>
+		<string>‘と’是一个男人正跪在那里费力的脱裤子，所以读to。</string>
+		<key>romaji</key>
+		<string>to</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>なな (nana)</string>
+				<key>meaning</key>
+				<string>seven</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>なまえ (namae)</string>
+				<key>meaning</key>
+				<string>name</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>な</string>
+		<key>memoryHint</key>
+		<string>‘な’这个平假名不太好写，但是记起来却不难。仔细看，上面的十字和点中间形成了一个小缺口，下面的那个东西好像一个人在指向那个缺口，想像一下警匪片中，警察追捕坏人，但是拐了一个弯儿坏人不见了，一个警察扫视了一下周围的环境，发现了一个缺口，伸手一指，大声说：长官，哪儿！所以这个假名就读na 了，我这么记，记得很牢固。</string>
+		<key>romaji</key>
+		<string>na</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>に (ni)</string>
+				<key>meaning</key>
+				<string>two</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>にほん (nihon)</string>
+				<key>meaning</key>
+				<string>Japan</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>に</string>
+		<key>memoryHint</key>
+		<string>因为‘二’通汉字‘尔’，也就是你的意思，所以‘に’这个平假名看主体就是表示你，所以读ni。</string>
+		<key>romaji</key>
+		<string>ni</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>いぬ (inu)</string>
+				<key>meaning</key>
+				<string>dog</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ぬう (nuu)</string>
+				<key>meaning</key>
+				<string>sow</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ぬ</string>
+		<key>memoryHint</key>
+		<string>‘ぬ’通汉字‘奴’，非常好记，读nu。</string>
+		<key>romaji</key>
+		<string>nu</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ねこ (neko)</string>
+				<key>meaning</key>
+				<string>cat</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>はね (hane)</string>
+				<key>meaning</key>
+				<string>wing</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ね</string>
+		<key>memoryHint</key>
+		<string>‘ね’的左边是一个小孩，瘦小柔弱，右边是母亲在奶自己的孩子，是nai。</string>
+		<key>romaji</key>
+		<string>ne</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>その (sono)</string>
+				<key>meaning</key>
+				<string>that</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>きのう (kinoo)</string>
+				<key>meaning</key>
+				<string>yesterday</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>の</string>
+		<key>memoryHint</key>
+		<string>‘の’这个假名我不想多讲了，这个是极其常见的一个日语假名，是‘的’的意思，读音是no，这个不用刻意去记也记住了。</string>
+		<key>romaji</key>
+		<string>no</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>はい (hai)</string>
+				<key>meaning</key>
+				<string>yes</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>はな (hana)</string>
+				<key>meaning</key>
+				<string>flower</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>は</string>
+		<key>memoryHint</key>
+		<string>‘は’这个平假名左边是一个人在翩翩起舞，右边是站成一条线的围观的人，有人跳舞给大家看，大家当然高兴啦，每个人都笑哈哈。读ha。</string>
+		<key>romaji</key>
+		<string>ha</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ひ (hi)</string>
+				<key>meaning</key>
+				<string>fire</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ひと (hito)</string>
+				<key>meaning</key>
+				<string>person</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ひ</string>
+		<key>memoryHint</key>
+		<string>‘ひ’是一个人在微笑的笑脸，虽然有些夸张，但还是能看出来，笑的有点大，所以出声了，嘿嘿的笑，读hi。</string>
+		<key>romaji</key>
+		<string>hi</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ふね (fune)</string>
+				<key>meaning</key>
+				<string>boat</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ふゆ (fuyu)</string>
+				<key>meaning</key>
+				<string>winter</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ふ</string>
+		<key>memoryHint</key>
+		<string></string>
+		<key>romaji</key>
+		<string>fu</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>へや (heya)</string>
+				<key>meaning</key>
+				<string>room</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>へた (heta)</string>
+				<key>meaning</key>
+				<string>be poor</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>へ</string>
+		<key>memoryHint</key>
+		<string>‘へ’这个平假名让人想起了大海上的波涛，读he。</string>
+		<key>romaji</key>
+		<string>he</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ほし (hoshi)</string>
+				<key>meaning</key>
+				<string>star</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ほん (hon)</string>
+				<key>meaning</key>
+				<string>book</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ほ</string>
+		<key>memoryHint</key>
+		<string>‘ほ’呢，还是大家在看一个人在跳舞，不过这次舞者在头上顶了一个盘子跳，这可是真功夫，有水平，大家都给她叫好，所以你见了也要叫ho。</string>
+		<key>romaji</key>
+		<string>ho</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>まち (machi)</string>
+				<key>meaning</key>
+				<string>town</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>まん (man)</string>
+				<key>meaning</key>
+				<string>10,000</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ま</string>
+		<key>memoryHint</key>
+		<string>‘ま’通‘马’，是一个人骑在马背上的俯视图，读ma。</string>
+		<key>romaji</key>
+		<string>ma</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>みかん (mikan)</string>
+				<key>meaning</key>
+				<string>mandarin orange</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>みず (mizu)</string>
+				<key>meaning</key>
+				<string>water</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>み</string>
+		<key>memoryHint</key>
+		<string></string>
+		<key>romaji</key>
+		<string>mi</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>さむい (samui)</string>
+				<key>meaning</key>
+				<string>cold</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>むし (mushi)</string>
+				<key>meaning</key>
+				<string>insect</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>む</string>
+		<key>memoryHint</key>
+		<string>‘む’像一头牛，正在mu，mu叫着呢。</string>
+		<key>romaji</key>
+		<string>mu</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>めいし (meishi)</string>
+				<key>meaning</key>
+				<string>business card</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ゆめ (yume)</string>
+				<key>meaning</key>
+				<string>dream</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>め</string>
+		<key>memoryHint</key>
+		<string></string>
+		<key>romaji</key>
+		<string>me</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>もつ (motsu)</string>
+				<key>meaning</key>
+				<string>hold</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>もう (mou)</string>
+				<key>meaning</key>
+				<string>already</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>も</string>
+		<key>memoryHint</key>
+		<string>‘も’一眼看上去就像是汉字‘毛’，日本人为了不让别人说他一毛不拔，就狠狠心拔了一毛，成了现在这个样子，很好记，你看成毛就可以了。</string>
+		<key>romaji</key>
+		<string>mo</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>てら (tera)</string>
+				<key>meaning</key>
+				<string>temple</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>おさら (osara)</string>
+				<key>meaning</key>
+				<string>dish</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ら</string>
+		<key>memoryHint</key>
+		<string>‘ら’这个假名相当好笑，你看那个人低着头蹲那儿在干什么呢？拉屎呗，那这个假名就是la了。</string>
+		<key>romaji</key>
+		<string>ra</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>りんご (ringo)</string>
+				<key>meaning</key>
+				<string>apple</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>つり (tsuri)</string>
+				<key>meaning</key>
+				<string>fishing</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>り</string>
+		<key>memoryHint</key>
+		<string>‘り’也是一个容易记忆的假名，两个人立在哪儿，自然就是li了。</string>
+		<key>romaji</key>
+		<string>ri</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ひる (hiru)</string>
+				<key>meaning</key>
+				<string>noon</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>よる (yoru)</string>
+				<key>meaning</key>
+				<string>night</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>る</string>
+		<key>memoryHint</key>
+		<string>‘る’表示的是发音时的口型，先发‘L’音，此时你的舌头是向上翘的，‘る’的上半部分就是代表向上的舌头，下面是一个大圈加一个小圈，代表你发’U’音的时候，你的口型由大变小。所以你看到‘る’这个假名，自然而然就把它读出来了。</string>
+		<key>romaji</key>
+		<string>ru</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>きれい (kirei)</string>
+				<key>meaning</key>
+				<string>pretty</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>れい (rei)</string>
+				<key>meaning</key>
+				<string>zero</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>れ</string>
+		<key>memoryHint</key>
+		<string>‘れ’我看着像礼品的‘礼’，当有人提着礼品来了，你肯定会迫不及待地冲人家喊，来来来，所以见了礼，你就喊le就行了。</string>
+		<key>romaji</key>
+		<string>re</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ろうまじ (roomaji)</string>
+				<key>meaning</key>
+				<string>Roman alphabet</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ろく (roku)</string>
+				<key>meaning</key>
+				<string>six</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ろ</string>
+		<key>memoryHint</key>
+		<string>‘ろ’也是发音时的口型，上面是发‘L’时的口型，下面嘴大张着，这是在发‘O’呢，所以一看到‘ろ’你就张嘴发lo。</string>
+		<key>romaji</key>
+		<string>ro</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>やすい (yasui)</string>
+				<key>meaning</key>
+				<string>cheap</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>やま (yama)</string>
+				<key>meaning</key>
+				<string>mountain</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>や</string>
+		<key>memoryHint</key>
+		<string>以前网上有个帖子，讨论用马桶大便的时候如何压水花的问题，日本人在这里给出了解释。你看‘や’，坐在马桶上，便便已经快落进去了，但是水花没有压好，溅出来了一点，好臭啊，没压好。</string>
+		<key>romaji</key>
+		<string>ya</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ゆき (yuki)</string>
+				<key>meaning</key>
+				<string>snow</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>ゆうめい (yuumei)</string>
+				<key>meaning</key>
+				<string>famous</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ゆ</string>
+		<key>memoryHint</key>
+		<string>‘ゆ’在我看来就是一个幼女的‘幼’的草写，一看到它，就是yu了。</string>
+		<key>romaji</key>
+		<string>yu</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>よん (yon)</string>
+				<key>meaning</key>
+				<string>four</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>よこ (yoko)</string>
+				<key>meaning</key>
+				<string>side</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>よ</string>
+		<key>memoryHint</key>
+		<string>‘よ’这个假名我看了一眼就记住了，因为它的样子就像一把钥匙，读yo就很自然了。</string>
+		<key>romaji</key>
+		<string>yo</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>わたし (watashi)</string>
+				<key>meaning</key>
+				<string>I</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>かわ (kawa)</string>
+				<key>meaning</key>
+				<string>river</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>わ</string>
+		<key>memoryHint</key>
+		<string>这个假名念wa，一般人在惊讶的情况下才会哇的一声，这里也是这个样子。‘わ’表示一位亭亭玉立的少女，突然裙子被大风给卷起来了，你看了不替她着急吗？一急就wa的一声叫出来了。</string>
+		<key>romaji</key>
+		<string>wa</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array/>
+		<key>kana</key>
+		<string>を</string>
+		<key>memoryHint</key>
+		<string>‘を’这个假名呢，代表比较刺激的事情，才会嗷嗷叫。‘を’好像一个人去游泳，先把一只脚放到水池里试一试水温，wa，好凉。</string>
+		<key>romaji</key>
+		<string>wo</string>
+	</dict>
+	<dict>
+		<key>examples</key>
+		<array>
+			<dict>
+				<key>kana</key>
+				<string>ぱん (pan)</string>
+				<key>meaning</key>
+				<string>bread</string>
+			</dict>
+			<dict>
+				<key>kana</key>
+				<string>はん (han)</string>
+				<key>meaning</key>
+				<string>half</string>
+			</dict>
+		</array>
+		<key>kana</key>
+		<string>ん</string>
+		<key>memoryHint</key>
+		<string>‘ん’很像字母‘n’，只不过头上长了一些，你把它当成n就记住了。</string>
+		<key>romaji</key>
+		<string>n</string>
+	</dict>
+</array>

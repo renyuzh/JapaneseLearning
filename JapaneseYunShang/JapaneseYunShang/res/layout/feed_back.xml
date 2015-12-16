@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:orientation="vertical"
+            android:padding="5.0dip" >
+
+            <TextView
+                style="@style/text_black_small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="10.0dip"
+                android:text="@string/thanks" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/divider_title" />
+            
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:focusable="true" />
+ 
+            <EditText
+                android:id="@+id/txt_customer_suggestion"
+                style="@style/default_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:gravity="top"
+                android:hint="请写下您的宝贵意见或建议"
+                android:lines="4"
+                android:padding="10.0dip"
+                android:textSize="15.0sp" />
+
+            <TextView
+                style="@style/text_black_small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="10.0dip"
+                android:text="您的联系方式" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/divider_title" />
+
+            <EditText
+                android:id="@+id/txt_customer_contact_info"
+                style="@style/default_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:hint="请留下您的手机号码、QQ号或邮箱"
+                android:padding="10.0dip"
+                android:singleLine="true"
+                android:textSize="15.0sp" />
+
+            <TextView
+                style="@style/text_black_small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="10.0dip"
+                android:text="我们的联系方式" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/divider_title" />
+
+            <TextView
+                android:id="@+id/customer_service"
+                style="@style/settings_item"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_gravity="left|center"
+                android:drawableLeft="@drawable/ic_settings_service"
+                android:drawablePadding="6.0dip"
+                android:gravity="center_vertical"
+                android:text="云裳客服  1234567890" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

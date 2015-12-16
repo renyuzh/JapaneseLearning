@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="header_bg_common">#323a45</color>
+    <color name="title_txt_color">#f1f1f3</color>
+    <color name="circle_color">#ffffff</color>
+    <color name="ring_color">#0090ff</color>
+    <color name="c_bg">#ff818181</color>
+    <color name="c_white">#ffffffff</color>
+    <color name="c_black">#ff000000</color>
+    <color name="c_grey">#999999</color>
+    <color name="c_red">#ff6666</color>
+    <color name="font_red">#ff92332e</color>
+    <color name="transparent">#00000000</color>
+    <color name="title_font_shadow">#ff4c1e0f</color>
+    <color name="title_font">#fffcf7e9</color>
+    <color name="slide_menu_item_selected">#ff666666</color>
+    <color name="backgroundcolor">#f0f0f0</color>
+    <color name="shallowgray">#e1e1e1</color>
+    <color name="textgray">#8EA1AB</color>
+    <color name="shallowgreen">#C9EAE8</color>
+    <color name="transparentgray">#53756E60</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="popup_main_background">#b0000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bbutton_danger">#ffd9534f</color>
+    <color name="bbutton_danger_edge">#ffd43f3a</color>
+    <color name="bbutton_danger_pressed">#ffd2322d</color>
+    <color name="bbutton_danger_pressed_edge">#ffac2925</color>
+    <color name="bbutton_danger_disabled">#a5d9534f</color>
+    <color name="bbutton_danger_disabled_edge">#a5d43f3a</color>
+    <color name="bbutton_info">#ff5bc0de</color>
+    <color name="bbutton_info_edge">#ff46b8da</color>
+    <color name="bbutton_info_pressed">#ff39b3d7</color>
+    <color name="bbutton_info_pressed_edge">#ff269abc</color>
+    <color name="bbutton_info_disabled">#a55bc0de</color>
+    <color name="bbutton_info_disabled_edge">#a546b8da</color>
+    <color name="main_app_background">#EEEEEE</color>
+
+</resources>

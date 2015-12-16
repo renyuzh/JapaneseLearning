@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c_white" >
+
+    <android.ricohkana.fq.utils.SlideMenu_yintu
+        android:id="@+id/slide_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include layout="@layout/slide_menu" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@id/kana_list_linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44.0dip"
+                android:background="@drawable/study_drop_down_list"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@id/list_first_btn"
+                    android:layout_width="170.0dip"
+                    android:layout_height="42.0dip"
+                    android:layout_marginTop="3.0dip"
+                    android:background="@color/transparent"
+                    android:shadowColor="@color/title_font_shadow"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:textColor="@color/c_white"
+                    android:textSize="22.0sp" />
+
+                <Button
+                    android:id="@id/list_second_btn"
+                    android:layout_width="170.0dip"
+                    android:layout_height="40.0dip"
+                    android:background="@color/transparent"
+                    android:shadowColor="@color/title_font_shadow"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:textColor="@color/c_white"
+                    android:textSize="22.0sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@id/title_bar_relativelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/title_bar_bg" >
+
+                <Button
+                    android:id="@id/title_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/transparent"
+                    android:shadowColor="@color/title_font_shadow"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="@string/qing_yin"
+                    android:textColor="@color/c_white"
+                    android:textSize="22.0sp" />
+
+                <ImageView
+                    android:id="@id/arrow_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/title_btn"
+                    android:contentDescription="@string/desc"
+                    android:src="@drawable/arrow_right" />
+
+                <ImageView
+                    android:id="@id/kana_change_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@string/desc"
+                    android:src="@drawable/show_pian" />
+
+                <ImageView
+                    android:id="@id/kana_change_btn_xiaoguo"
+                    android:layout_width="70.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/desc"
+                    android:src="@drawable/kana_change_bg" />
+            </RelativeLayout>
+
+            <GridView
+                android:id="@id/gvKana"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_bar_relativelayout"
+                android:background="@color/transparent"
+                android:numColumns="5"
+                android:visibility="visible" />
+
+            <GridView
+                android:id="@+id/gvKanaao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_bar_relativelayout"
+                android:background="@color/transparent"
+                android:numColumns="3"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </android.ricohkana.fq.utils.SlideMenu_yintu>
+
+</RelativeLayout>
